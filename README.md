@@ -45,5 +45,41 @@ To use this program, you need to set up an app password if you use Gmail or yaho
 
 3. Copy the password and replace the values in config.py with your credentials and email service provider.
 
-<img src="https://i.ibb.co/2vWxfKw/Screenshot-2024-01-23-122213.png" alt="Screenshot-2024-01-23-122213" border="0">
+```python
+email_provider = "smtp.gmail.com"  #Your email provider
+email_ID = "YOUR EMAIL ID"
+password = "YOUR APP PASSWORD"
+```
+4. Replace the values of http headers in scraping.py with your "User-Agent" and "Accept-Language" values.
+
+```python
+    headers = {
+    "User-Agent" : "YOUR User-Agent",
+    "Accept-Language" : "en-US,en;q=0.9"
+    }                               #class attribute
+```
+
+## Usage
+1. Run the script by executing the following command in the terminal: 
+```
+python main.py
+```
+2. The program will prompt you to enter the URL of your desired item from amazon. 
+
+3. Let the program handle the tracking for you. Receive email notifications as soon as the price drops!
+
+## Contribution
+1. Fork the repository and create a new branch for your feature or bug fix.
+
+2. Make your changes, and ensure that your code follows the PEP 8 style guide.
+
+3. Write tests to cover your code if applicable.
+
+4. Create a pull request with a clear description of your changes and why they are needed.
+
+5. Your pull request will be reviewed, and once approved, it will be merged into the main branch.
+
+## license
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Alcatraz312/Amazon-price-tracker/blob/main/LICENSE.md) file for details.
 
