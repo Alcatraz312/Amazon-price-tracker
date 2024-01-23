@@ -4,8 +4,11 @@ from Scraping import Scrape
 import time 
 buy_price = 60.00      #target price
 
+link = input("Enter the link of your desired item on amazon : ")
+#example link : https://www.amazon.com/Glorious-Gaming-Mouse-Model-Matte/dp/B08HR9S2B7/ref=sr_1_4?crid=2GLDDOL18GVDY&keywords=glorious%2Bmodel%2Bo&qid=1705853096&sprefix=glorious%2Bmodel%2Bo%2Caps%2C284&sr=8-4&th=1
+
 #create object item
-item = Scrape(link="https://www.amazon.com/Glorious-Gaming-Mouse-Model-Matte/dp/B08HR9S2B7/ref=sr_1_4?crid=2GLDDOL18GVDY&keywords=glorious%2Bmodel%2Bo&qid=1705853096&sprefix=glorious%2Bmodel%2Bo%2Caps%2C284&sr=8-4&th=1")
+item = Scrape(link=link)
 
 #initializing a while loop
 while True:
