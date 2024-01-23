@@ -1,3 +1,3 @@
-email_provider = "smtp.gmail.com"
-email_ID = "rathorevyom04@gmail.com"
-password = "dpkkmezbpyywexqo"
+email_provider = "smtp.gmail.com"  #Your email provider
+email_ID = "YOUR EMAIL ID"
+password = "YOUR APP PASSWORD"
