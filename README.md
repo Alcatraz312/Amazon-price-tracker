@@ -45,5 +45,5 @@ To use this program, you need to set up an app password if you use Gmail or yaho
 
 3. Copy the password and replace the values in config.py with your credentials and email service provider.
 
-![](C:\Users\ratho\OneDrive\Pictures\Screenshots\Screenshot 2024-01-23 122213.png)
+![image info](C:\Users\ratho\OneDrive\Pictures\Screenshots\Screenshot 2024-01-23 122213.png)
 
