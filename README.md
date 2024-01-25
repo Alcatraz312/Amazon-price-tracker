@@ -31,7 +31,7 @@ cd Amazon-price-tracker
 ```python
 python -m venv environment
 ```
-4. Activate the virtual environment\
+4. Activate the virtual environment
 * Linux:
 ```python
 . <path_to_env>/bin/activate
