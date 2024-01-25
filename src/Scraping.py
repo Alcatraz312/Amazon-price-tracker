@@ -4,7 +4,9 @@ import lxml
 
 #initialize a class 
 class Scrape:
-
+    '''
+    Scrapping object
+    '''
     headers = {
     "User-Agent" : "YOUR User-Agent",
     "Accept-Language" : "en-US,en;q=0.9"
