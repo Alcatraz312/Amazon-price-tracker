@@ -1,6 +1,6 @@
 import smtplib
 from config import email_ID,email_provider,password
-from Scraping import Scrape
+from src.Scraping import Scrape
 import time 
 buy_price = 60.00      #target price
 
