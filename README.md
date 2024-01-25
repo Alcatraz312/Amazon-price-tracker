@@ -32,15 +32,15 @@ cd Amazon-price-tracker
 python -m venv environment
 ```
 4. Activate the virtual environment\
-*Linux:
+* Linux:
 ```python
 . <path_to_env>/bin/activate
 ```
-*Windows (Powershell):
+* Windows (Powershell):
 ```python
 <path_to_env>/Scripts/Activate.ps1
 ```
-*Windows (Command prompt):
+* Windows (Command prompt):
 ```python
 <path_to_env>/Scripts/Activate.bat
 ```
