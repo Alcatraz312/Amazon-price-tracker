@@ -31,11 +31,24 @@ cd Amazon-price-tracker
 ```python
 python -m venv environment
 ```
-4. Upgrade pip to the latest version:
+4. Activate the virtual environment:
+Linux:
+```python
+. <path_to_env>/bin/activate
+```
+Windows (Powershell):
+```python
+<path_to_env>/Scripts/Activate.ps1
+```
+Windows (Command prompt):
+```python
+<path_to_env>/Scripts/Activate.bat
+```
+5. Upgrade pip to the latest version:
 ```python
 python.exe -m pip install --upgrade pip
 ```
-5. Install the required python packages using pip:
+6. Install the required python packages using pip:
 ```
 pip install -r requirements.txt
 ```
