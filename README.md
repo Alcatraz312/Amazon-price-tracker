@@ -27,6 +27,11 @@ git clone https://github.com/Alcatraz312/Amazon-price-tracker.git
 ```python
 cd Amazon-price-tracker
 ```
+3. Create a virtual python environment for your project:
+   ```python
+   python -m venv environment
+   ```
+
 3. Install the required python packages using pip:
 ```
 pip install -r requirements.txt
