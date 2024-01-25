@@ -29,7 +29,3 @@ while True:
     
     time.sleep(60)                  #make the loop sleep for 60 seconds after every run
 
-
-
-
-
